@@ -34,7 +34,7 @@ public class ProductService {
         ProductService productService = new ProductService(productInfoService, reviewService);
         String productId = "ABC123";
         Product product = productService.retrieveProductDetails(productId);
-        log("Product is " + product);
+        log("Product is : {} " + product);
 
     }
 }
