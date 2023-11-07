@@ -19,6 +19,6 @@ public class CompletableFutureHelloWorld {
                 }).join();
 
         log("Done!");
-       // delay(2000);
+       // delay(2000);test
     }
 }
